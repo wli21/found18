@@ -84,7 +84,7 @@ def cols(src):
   ignore = [0 for _ in row1]
   
   for index,c in enumerate(row1):
-      if c.startswith('?') or c.startswith('>'):
+      if '?' in c or '>' in c:
         ignore[index] = 1
 
   result = []
@@ -106,7 +106,7 @@ def prep(src):
   is_float = [0 for _ in row1]
   
   for index,c in enumerate(row1):
-      if c.startswith('$'):
+      if '$' in c:
         is_float[index] = 1
 
   for i,row in enumerate(src[1:]):
