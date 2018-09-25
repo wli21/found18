@@ -1,0 +1,62 @@
+-----| testDom1 |-----------------------
+
+weatherLong.csv
+
+%outlook	$temp	<humid	wind	!play	>dom
+over	64	65	TRUE	yes	0.98
+over	64	65	TRUE	yes	0.92
+over	72	90	TRUE	yes	0.29
+over	72	90	TRUE	yes	0.25
+over	81	75	FALSE	yes	0.71
+over	81	75	FALSE	yes	0.71
+over	83	86	FALSE	yes	0.39
+over	83	86	FALSE	yes	0.43
+sunny	69	70	FALSE	yes	0.76
+sunny	69	70	FALSE	yes	0.80
+rainy	65	70	TRUE	no	0.74
+rainy	65	70	TRUE	no	0.69
+sunny	75	70	TRUE	yes	0.77
+sunny	75	70	TRUE	yes	0.80
+rainy	75	80	FALSE	yes	0.49
+rainy	75	80	FALSE	yes	0.46
+rainy	68	80	FALSE	yes	0.50
+rainy	68	80	FALSE	yes	0.46
+sunny	85	85	FALSE	no	0.37
+sunny	85	85	FALSE	no	0.39
+sunny	80	90	TRUE	no	0.22
+sunny	80	90	TRUE	no	0.15
+rainy	71	91	TRUE	no	0.18
+rainy	71	91	TRUE	no	0.17
+sunny	72	95	FALSE	no	0.05
+sunny	72	95	FALSE	no	0.09
+rainy	70	96	FALSE	yes	0.00
+rainy	70	96	FALSE	yes	0.00
+# pass
+
+-----| testDom2 |-----------------------
+
+auto.csv
+
+%cylinders	$displacement	$horsepower	<weight	>acceltn	$model	origin	>mpg	>dom
+8	304	193	4732	18.5	70	1	10	0.15
+8	360	215	4615	14	70	1	10	0.03
+8	307	200	4376	15	70	1	10	0.10
+8	318	210	4382	13.5	70	1	10	0.06
+8	429	208	4633	11	72	1	10	0.01
+8	400	150	4997	14	73	1	10	0.01
+8	350	180	3664	11	73	1	10	0.10
+8	383	180	4955	11.5	71	1	10	0.01
+8	350	160	4456	13.5	72	1	10	0.10
+8	429	198	4952	11.5	73	1	10	0.02
+---------------- Omitted 378 Lines -----------------
+4	85	70	2070	18.6	78	3	40	0.97
+4	85	65	2110	19.2	80	3	40	0.97
+4	85	?	1835	17.3	80	2	40	0.96
+4	98	76	2144	14.7	80	2	40	0.85
+4	90	48	1985	21.5	78	2	40	0.98
+4	90	48	2335	23.7	80	2	40	1.00
+4	97	52	2130	24.6	82	2	40	1.00
+4	90	48	2085	21.7	80	2	40	0.98
+4	91	67	1850	13.8	80	3	40	0.94
+4	86	65	2110	17.9	80	3	50	1.00
+# pass
