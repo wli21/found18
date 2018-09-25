@@ -67,5 +67,6 @@ def testDom1():
 
 @O.k
 def testDom2():
+	random.seed(1)
 	print("\nauto.csv\n")
 	mainDom("data/auto.csv",True)

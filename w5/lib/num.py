@@ -51,6 +51,11 @@ class Num:
     """Normalization"""
     def numNorm(self,x):
         return x=="?" and 0.5 or (x-self.lo) / (self.hi-self.lo + 10**-32)
+
+    def numXpect(i,j):
+        n = i.n + j.n +0.0001
+        return i.n/n * i.sd+ j.n/n * j.sd
+        
 """test
 @O.k
 def testNum():

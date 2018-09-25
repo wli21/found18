@@ -1,0 +1,44 @@
+-----| testUnsuper |-----------------------
+
+weatherLong.csv
+
+
+-- $temp: 27----------
+
+|.. 64.. 85
+|.. |.. 64.. 69 (..69)
+|.. |.. 69.. 85
+|.. |.. |.. 69.. 72 (69..72)
+|.. |.. |.. 72.. 85
+|.. |.. |.. |.. 72.. 80 (72..80)
+|.. |.. |.. |.. 80.. 85 (80..)
+%outlook, temp, <humid, wind, !play
+over	..69	65	TRUE	yes
+over	..69	65	TRUE	yes
+rainy	..69	70	TRUE	no
+rainy	..69	70	TRUE	no
+rainy	..69	80	FALSE	yes
+rainy	..69	80	FALSE	yes
+sunny	..69	70	FALSE	yes
+sunny	69..72	70	FALSE	yes
+rainy	69..72	96	FALSE	yes
+rainy	69..72	96	FALSE	yes
+rainy	69..72	91	TRUE	no
+rainy	69..72	91	TRUE	no
+over	69..72	90	TRUE	yes
+over	72..80	90	TRUE	yes
+sunny	72..80	95	FALSE	no
+sunny	72..80	95	FALSE	no
+sunny	72..80	70	TRUE	yes
+sunny	72..80	70	TRUE	yes
+rainy	72..80	80	FALSE	yes
+rainy	72..80	80	FALSE	yes
+sunny	72..80	90	TRUE	no
+sunny	80..	90	TRUE	no
+over	80..	75	FALSE	yes
+over	80..	75	FALSE	yes
+over	80..	86	FALSE	yes
+over	80..	86	FALSE	yes
+sunny	80..	85	FALSE	no
+sunny	80..	85	FALSE	no
+# pass
