@@ -48,7 +48,8 @@ def doms(data,brief):
 	"""show only first and last 10 lines sorted by dom scroe from highes to lowest"""
 	o = len(data.rows) - 20
 	if brief and o > 0:
-		sorted(data.rows, key=operator.itemgetter(len(data.rows[0])-1))
+		data.rows = sorted(data.rows, key=operator.itemgetter(len(data.rows[0])-1))
+		#data.rows = sorted(data.rows, key=lambda x: x[len(data.rows[0])-1])
 		dump(data.rows[:10])
 		print("---------------- Omitted "+ str(o) +" Lines -----------------")
 		dump(data.rows[-10:])
