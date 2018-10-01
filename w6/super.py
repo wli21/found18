@@ -81,7 +81,7 @@ def super(data,goal = None,enough = None):
 			# store the # and sd for data fitts in this range
 			e_sd[c]={}
 			e_sd[c][s] = (n,sd)
-			print(txt + " = " + str(math.floor(100*mu)))
+			print(txt + " mean = " + str(math.floor(100*mu)) + "; size = " + str(n))
 			for r in range(lo,hi+1):
 				rows[r][c]=s
 
