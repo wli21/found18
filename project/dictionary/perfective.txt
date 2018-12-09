@@ -1,0 +1,3 @@
+cleanup(2), consistent(2), declaration(2), definition(2), header, include,
+inline, move(2), prototype(2), removal(2), static(2), style(2), unused(2),
+variable(2), warning, whitespace(2)
